@@ -1,0 +1,14 @@
+version: '3'
+
+vars:
+  SCRIPTFOLDER: "cli-scripts\\"
+
+tasks:
+  default:
+    cmds:
+      - echo 'Use Task <command> to do stuff!!'
+    silent: true
+
+  scrapli:
+    cmds:
+      - pyinstaller --onefile {{.SCRIPTFOLDER}}\run-command-scrapli.py --hidden-import scrapli.transport.plugins.asyncssh.transport

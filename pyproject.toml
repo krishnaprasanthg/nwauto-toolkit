@@ -8,6 +8,10 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.26.0"
+click = "^8.0.1"
+rich = "^10.6.0"
+scrapli = {extras = ["asyncssh"], version = "^2021.1.30"}
+pyinstaller = "^4.4"
 
 [tool.poetry.dev-dependencies]
 black = "^21.7b0"

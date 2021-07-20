@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nwauto-toolkit"
+version = "0.0.1"
+description = "all the good things of network automation"
+authors = ["Krishna Prasanth <krishnaprasanth.g@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

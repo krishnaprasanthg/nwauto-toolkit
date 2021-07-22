@@ -37,3 +37,9 @@ I'll be using Windows environment, but the dependencies should support Linux as 
 6. You can find executable files that are built for windows in the dist folder. 
 
     You can make one by following Taskfile. Read https://taskfile.dev/
+
+
+EXE Scripts usage example:
+> dist\scrapli-configure.exe --help
+
+> dist\scrapli-configure.exe -d nxos.lab --config_file "config_file.txt" -t nxos
